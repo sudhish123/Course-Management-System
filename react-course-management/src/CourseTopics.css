@@ -1,0 +1,86 @@
+.course-topics-container {
+    width: 70%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .chapter {
+    margin-bottom: 20px;
+    border: 1px solid #e2e8f0;
+    border-radius: 5px;
+  }
+  
+  .chapter-header {
+    background-color: #f56565; 
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .add-btn {
+    background-color: white;
+    color: #f56565;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .topics {
+    padding: 10px;
+    background-color: #f7fafc;
+  }
+  
+  .topic-header {
+    background-color: #3182ce; 
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+  }
+  
+  .topic-content {
+    padding: 10px;
+    background-color: #edf2f7;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .topic-content.default {
+    border-left: 5px solid #48bb78; 
+  }
+  
+  .topic-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #e2e8f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+  }
+  
+  .topic-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .view-btn, .edit-btn, .delete-btn, .add-topic-btn {
+    background-color: #edf2f7;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .view-btn:hover, .edit-btn:hover, .delete-btn:hover, .add-topic-btn:hover {
+    background-color: #e2e8f0;
+  }
+  

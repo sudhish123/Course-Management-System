@@ -1,0 +1,168 @@
+.course-creation-container {
+  width: 60%;
+  margin: auto;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  color: #4a5568;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  color: #4a5568;
+  margin-bottom: 10px;
+}
+
+.form-group, .upload-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-group label, .upload-group h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 5px;
+}
+
+input[type="text"], textarea, select {
+  padding: 10px;
+  border: 1px solid #e2e8f0;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #2d3748;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus, textarea:focus, select:focus {
+  border-color: #667eea;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+}
+
+.upload-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.upload-group {
+  flex-basis: 45%;
+  padding: 15px;
+  border: 2px dashed #cbd5e0;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.upload-group:hover {
+  background-color: #edf2f7;
+}
+
+.upload-group input[type="file"] {
+  display: none;
+}
+
+.upload-group:before {
+  content: "Upload";
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #4a5568;
+  margin-bottom: 10px;
+}
+
+.upload-group h3 {
+  font-size: 14px;
+  color: #a0aec0;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+button {
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+button[type="button"] {
+  background-color: #edf2f7;
+  color: #4a5568;
+}
+
+button[type="button"]:hover {
+  background-color: #e2e8f0;
+}
+
+button[type="submit"] {
+  background-color: #667eea;
+  color: white;
+}
+
+button[type="submit"]:hover {
+  background-color: #5a67d8;
+}
+
+.faq-section {
+  margin-top: 20px;
+}
+
+.faq-section input[type="text"] {
+  width: 100%;
+}
+
+.course-info-section {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .course-creation-container {
+    width: 90%;
+  }
+
+  .upload-section {
+    flex-direction: column;
+  }
+
+  .upload-group {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+}
+.course-list-section {
+  margin-top: 2rem; 
+  border-top: 1px solid #ccc; 
+  padding-top: 1rem; 
+}
+
+.course-list-section h2 {
+  margin-bottom: 1rem; 
+}
+
+.course-list-section ul {
+  list-style-type: none; 
+  padding: 0; 
+}
+
+.course-list-section li {
+  margin-bottom: 0.5rem; 
+}
