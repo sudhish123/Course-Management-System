@@ -1,0 +1,11 @@
+
+.course-link {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s; 
+  }
+  
+  .course-link:hover {
+    color: blue; 
+  }
+  
